@@ -1,0 +1,35 @@
+body{
+  margin:2px;
+}
+.topBar{
+  height:50px;
+  width:460px;
+  background-color:#118BC0;
+}
+.headerBox{
+  height: 1110px;
+  width:460px;
+  background-color: #344051;
+}
+
+.textOffer{
+  margin: 170px 0 0 50px;
+  font-size: 30px;
+  float: left;
+  font-weight: bold;
+  color:white;
+}
+
+.textOfferTwo{
+  margin: 0 0 0 170px;
+  font-size: 30px;
+  float: left;
+  font-weight: bold;
+  color: white;
+}
+
+.textOfferThree{
+  float:left;
+  margin:45px 0 0 0;
+  color:white;
+}
