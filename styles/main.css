@@ -76,4 +76,61 @@ body{
   height:1605px;
   width:100%;
   background:#D1D3D7;
+  padding-top:30px;
+}
+
+.detailInnerSmall{
+  float:left;
+  margin: 0px 2% 30px 2%;
+  background:white;
+  width:95%;
+  height:215px;
+}
+
+.detailInnerBig{
+  float:left;
+  margin: 0px 2% 30px 2%;
+  background:white;
+  width:95%;
+  height:240px;
+}
+
+.offerBox{
+  width:100%;
+  height:170px;
+  background: #E8F0F8;
+}
+
+.offerButtonBottom{
+  height:50px;
+  width:45%;
+  margin:100px 27% 0 27%;
+  background: #1E8CBE;
+  float:left;
+}
+
+.footerBox{
+  height:130px;
+  width:100%;
+  background:black;
+}
+
+.navBottomTop{
+  float:left;
+  color:white;
+  margin:15px 0 0 33%;;
+}
+
+.navBottomBottom{
+  float:left;
+  color:white;
+  margin:15px 0 25px 39%;
+}
+
+.autoMatic{
+  float:left;
+  height:25px;
+  width: 30%;
+  margin:0 35% 0 35%;
+  background:white;
 }
