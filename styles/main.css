@@ -3,33 +3,57 @@ body{
 }
 .topBar{
   height:50px;
-  width:460px;
+  width:100%;
   background-color:#118BC0;
 }
-.headerBox{
+.heroBox{
   height: 1110px;
-  width:460px;
+  width:100%;
   background-color: #344051;
+  padding-top: 170px;
 }
-
 .textOffer{
-  margin: 170px 0 0 50px;
-  font-size: 30px;
-  float: left;
-  font-weight: bold;
-  color:white;
-}
-
-.textOfferTwo{
-  margin: 0 0 0 170px;
-  font-size: 30px;
-  float: left;
-  font-weight: bold;
-  color: white;
-}
-
-.textOfferThree{
   float:left;
-  margin:45px 0 0 0;
+  font-size:90px;
+  font-weight: bold;
   color:white;
+  margin-left:16%;
+}
+.textOfferTwo{
+  float:left;
+  margin-left:39%;
+  font-size:90px;
+  font-weight: bold;
+  color:white;
+}
+.textOfferThree{
+  margin-top:45px;
+  float:left;
+  margin-left:23%;
+  font-size:50px;
+  color:white;
+
+}
+.textOfferFour{
+  float:left;
+  font-size:50px;
+  margin-left:25%;
+  color:white;
+}
+
+.offerButton{
+  background-color: #118BC0;
+  height:50px;
+  width:44%;
+  margin:40px 25% 0 25%;
+  float:left;
+  border:10px solid #20212A;
+}
+
+.carret{
+  width:11%;
+  height:20px;
+  margin:220px 43% 0 43%;
+  background:white;
+  float:left;
 }
