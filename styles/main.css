@@ -14,30 +14,30 @@ body{
 }
 .textOffer{
   float:left;
-  font-size:90px;
+  font-size:70px;
   font-weight: bold;
   color:white;
-  margin-left:16%;
+  margin-left:22%;
 }
 .textOfferTwo{
   float:left;
-  margin-left:39%;
-  font-size:90px;
+  margin-left:41%;
+  font-size:70px;
   font-weight: bold;
   color:white;
 }
 .textOfferThree{
   margin-top:45px;
   float:left;
-  margin-left:23%;
-  font-size:50px;
+  margin-left:34%;
+  font-size:30px;
   color:white;
 
 }
 .textOfferFour{
   float:left;
-  font-size:50px;
-  margin-left:25%;
+  font-size:30px;
+  margin-left:35%;
   color:white;
 }
 
@@ -53,7 +53,27 @@ body{
 .carret{
   width:11%;
   height:20px;
-  margin:220px 43% 0 43%;
+  margin:220px 43% 130px 43%;
   background:white;
   float:left;
+}
+
+.capability{
+  float:left;
+  height:70px;
+  width:65%;
+  margin:0 17% 30px 17%;
+  background:white;
+}
+
+.topDetail{
+  height:185px;
+  width:100%;
+  background: #E8F0F5;
+}
+
+.detailContainer{
+  height:1605px;
+  width:100%;
+  background:#D1D3D7;
 }
