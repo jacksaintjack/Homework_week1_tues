@@ -76,16 +76,6 @@ body{
   display:block;
 }
 
-.picImageText{
-  font-size:1.4em;
-  float:left;
-  margin:0;
-  color:white;
-}
-
-.picImageText span:nth-child(3){
-  font-size:0.85em
-}
 .carret{
   width:11%;
   height:22px;
@@ -98,7 +88,7 @@ body{
   float:left;
   height:65px;
   width:65%;
-  margin:0 17% 30px 17%;
+  margin:0 17% 30px 18%;
   background:white;
 }
 .picImage{
@@ -116,24 +106,39 @@ body{
   margin: 0 0.5% 10px 0;
   background:#5B6776;
 }
+.picImageText span{
+  font-size:1.6em;
+  margin:0;
+  color:white;
+  text-align:left;
+}
 
+.picImageText span:nth-child(3){
+  font-size:1.0em
+
+}
 /*Detail Section Style*/
 .topDetail{
   height:185px;
   width:100%;
   background: #E8F0F5;
+  font-size:1.6em;
+  color:#392F5A;
+  text-align:center;
+  margin:0;
+  padding-top: 20px;
 }
 
 .detailContainer{
   height:1605px;
   width:100%;
   background:#D1D3D7;
-  padding-top:30px;
+  padding-top:90px;
 }
 
 .detailInnerSmall{
   float:left;
-  margin: 0px 2% 30px 2%;
+  margin: 0px 2% 30px 2.5%;
   background:white;
   width:95%;
   height:215px;
@@ -141,7 +146,7 @@ body{
 .detailInnerSymbol{
   height:60px;
   width:13%;
-  margin:20px 41% 10px 41%;
+  margin:20px 41% 10px 43%;
   background: #BAC4CA;
 }
 .detailInnerTitle{
@@ -149,16 +154,22 @@ body{
   width:93%;
   margin:0 3% 20px 3%;
   background:#BAC4CA;
+  text-align:center;
+  color:#3A5B75;
+  font-size: 1.3em;
 }
 .detailInnerTextSmall{
   height:45px;
   width:93%;
   margin: 0 3% 0 3%;
   background:#BAC4CA;
+  text-align:center;
+  color: #black;
+  font-size: 1.1em;
 }
 .detailInnerBig{
   float:left;
-  margin: 0px 2% 30px 2%;
+  margin: 0px 2% 30px 2.5%;
   background:white;
   width:95%;
   height:240px;
@@ -168,6 +179,9 @@ body{
   width:93%;
   margin: 0 3% 0 3%;
   background:#BAC4CA;
+  text-align:center;
+  color: #black;
+  font-size: 1.1em;
 }
 .offerBox{
   width:100%;
