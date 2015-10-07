@@ -12,8 +12,10 @@ body{
   float:left;
   height: 60%;
   width:6%;
-  margin: 10px 2% 10px 2%;;
-  background:white;
+  margin: 10px 0 10px 2%;;
+  background-image:url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .logoText{
@@ -45,9 +47,11 @@ body{
 .heroBox{
   height: 1110px;
   width:100%;
-  background-color: #344051;
   padding-top: 170px;
-}
+  background-image: url("../images/crowd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
 .heroBox h1, .heroBox h2{
   font-size:75px;
   font-weight: bold;
@@ -72,7 +76,7 @@ body{
   width:45%;
   margin:40px 25% 0 27%;
   float:left;
-  border: 10px solid black;
+  border: 10px solid  transparent;
   display:block;
 }
 
@@ -88,23 +92,44 @@ body{
   float:left;
   height:65px;
   width:65%;
-  margin:0 17% 30px 18%;
-  background:white;
+  margin:0 10% 30px 34%;
+
 }
-.picImage{
+.picImageOne{
   height:55px;
   width:15%;
-  margin:10px 0.2% 0 0;
-  background: #5B6776;
+  margin-top:5px;
   float:left;
+  background-image:url("../images/tablet.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
-
+.picImageTwo{
+  height:55px;
+  width:15%;
+  margin-top:5px;
+  float:left;
+  background-image:url("../images/newspaper.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.picImageThree{
+  height:55px;
+  width:15%;
+  margin-top:5px;
+  float:left;
+  background-image:url("../images/paint-brush.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
 .picImageText{
   height:55px;
   width:80%;
   float:right;
-  margin: 0 0.5% 10px 0;
-  background:#5B6776;
+  margin: 0 3% 10px 0;
 }
 .picImageText span{
   font-size:1.6em;
