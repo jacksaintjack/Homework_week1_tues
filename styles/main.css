@@ -30,13 +30,15 @@ body{
 
 .com{
   color: #74B7D4;
-
 }
 .loginButton{
   float:right;
   height:100%;
   width: 15%;
   background: #0070A4;
+  border:none;
+  color: white;
+  font-size: 20px;
 }
 
 /*Hero Styles*/
@@ -46,48 +48,48 @@ body{
   background-color: #344051;
   padding-top: 170px;
 }
-.textOffer{
-  float:left;
+.heroBox h1, .heroBox h2{
   font-size:75px;
   font-weight: bold;
   color:white;
-  margin-left:22%;
+  margin:0;
+  text-align: center;
 }
-.textOfferTwo{
-  float:left;
-  margin-left:41%;
-  font-size:75px;
-  font-weight: bold;
-  color:white;
-}
-.textOfferThree{
-  margin-top:45px;
-  float:left;
-  margin-left:34%;
-  font-size:35px;
-  color:white;
 
+.heroBox h2{
+  margin-bottom: 45px;
 }
-.textOfferFour{
-  float:left;
+.heroBox h3{
   font-size:35px;
-  margin-left:35%;
   color:white;
+  text-align: center;
+  margin:0;
 }
 
 .offerButton{
-  background-color: #118BC0;
-  height:50px;
-  width:44%;
-  margin:40px 25% 0 25%;
+  background-color:#118BC0;
+  height:70px;
+  width:45%;
+  margin:40px 25% 0 27%;
   float:left;
-  border:10px solid #20212A;
+  border: 10px solid black;
+  display:block;
 }
 
+.picImageText{
+  font-size:1.4em;
+  float:left;
+  margin:0;
+  color:white;
+}
+
+.picImageText span:nth-child(3){
+  font-size:0.85em
+}
 .carret{
   width:11%;
-  height:20px;
-  margin:220px 43% 130px 43%;
+  height:22px;
+  margin:220px 43% 130px 45%;
   background:white;
   float:left;
 }
@@ -176,7 +178,7 @@ body{
 .offerButtonBottom{
   height:50px;
   width:45%;
-  margin:58px 27% 0 27%;
+  margin:100px 27% 0 27%;
   background: #1E8CBE;
   float:left;
 }
@@ -185,31 +187,22 @@ body{
   height:130px;
   width:100%;
   background:black;
+  padding-top:30px;
 }
 
-.navBottomTop{
-  float:left;
+.footerBox h4{
   color:white;
-  margin:15px 0 0 33%;;
+  text-align:center;
+  margin:0 17px 0 0;
 }
 
 .navBottomBottom{
-  float:left;
-  color:white;
-  margin:15px 0 25px 39%;
+  padding:15px 0 25px 0;
 }
 
 .autoMatic{
-  float:left;
-  height:25px;
+  height:35px;
   width: 30%;
-  margin:0 35% 0 35%;
+  margin:0 auto;
   background:white;
-}
-.superSecret{
-  color:blue;
-  font-size:30px;
-  float:left;
-  margin-left:33%;
-  opacity: 0.02;
 }
