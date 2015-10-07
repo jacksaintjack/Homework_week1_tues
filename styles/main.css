@@ -20,10 +20,18 @@ body{
   float:left;
   height:60%;
   width:26%;
-  background:white;
   margin-top:10px;
 }
+.wordpress{
+  float:left;
+  font-size:26px;
+  color:white;
+}
 
+.com{
+  color: #74B7D4;
+
+}
 .loginButton{
   float:right;
   height:100%;
