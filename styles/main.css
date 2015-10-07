@@ -1,11 +1,37 @@
 body{
   margin:2px;
 }
+/*Header Style*/
 .topBar{
   height:50px;
   width:100%;
   background-color:#118BC0;
 }
+
+.logoBox{
+  float:left;
+  height: 60%;
+  width:6%;
+  margin: 10px 2% 10px 2%;;
+  background:white;
+}
+
+.logoText{
+  float:left;
+  height:60%;
+  width:26%;
+  background:white;
+  margin-top:10px;
+}
+
+.loginButton{
+  float:right;
+  height:100%;
+  width: 15%;
+  background: #0070A4;
+}
+
+/*Hero Styles*/
 .heroBox{
   height: 1110px;
   width:100%;
@@ -14,7 +40,7 @@ body{
 }
 .textOffer{
   float:left;
-  font-size:70px;
+  font-size:75px;
   font-weight: bold;
   color:white;
   margin-left:22%;
@@ -22,7 +48,7 @@ body{
 .textOfferTwo{
   float:left;
   margin-left:41%;
-  font-size:70px;
+  font-size:75px;
   font-weight: bold;
   color:white;
 }
@@ -30,13 +56,13 @@ body{
   margin-top:45px;
   float:left;
   margin-left:34%;
-  font-size:30px;
+  font-size:35px;
   color:white;
 
 }
 .textOfferFour{
   float:left;
-  font-size:30px;
+  font-size:35px;
   margin-left:35%;
   color:white;
 }
@@ -60,12 +86,28 @@ body{
 
 .capability{
   float:left;
-  height:70px;
+  height:65px;
   width:65%;
   margin:0 17% 30px 17%;
   background:white;
 }
+.picImage{
+  height:55px;
+  width:15%;
+  margin:10px 0.2% 0 0;
+  background: #5B6776;
+  float:left;
+}
 
+.picImageText{
+  height:55px;
+  width:80%;
+  float:right;
+  margin: 0 0.5% 10px 0;
+  background:#5B6776;
+}
+
+/*Detail Section Style*/
 .topDetail{
   height:185px;
   width:100%;
@@ -86,7 +128,24 @@ body{
   width:95%;
   height:215px;
 }
-
+.detailInnerSymbol{
+  height:60px;
+  width:13%;
+  margin:20px 41% 10px 41%;
+  background: #BAC4CA;
+}
+.detailInnerTitle{
+  height:20px;
+  width:93%;
+  margin:0 3% 20px 3%;
+  background:#BAC4CA;
+}
+.detailInnerTextSmall{
+  height:45px;
+  width:93%;
+  margin: 0 3% 0 3%;
+  background:#BAC4CA;
+}
 .detailInnerBig{
   float:left;
   margin: 0px 2% 30px 2%;
@@ -94,7 +153,12 @@ body{
   width:95%;
   height:240px;
 }
-
+.detailInnerTextBig{
+  height:70px;
+  width:93%;
+  margin: 0 3% 0 3%;
+  background:#BAC4CA;
+}
 .offerBox{
   width:100%;
   height:170px;
