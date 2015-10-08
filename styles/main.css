@@ -84,8 +84,10 @@ body{
   width:11%;
   height:22px;
   margin:220px 43% 130px 45%;
-  background:white;
+  border: 1px solid transparent;
   float:left;
+  text-align: center;
+  color:white;
 }
 
 .capability{
@@ -170,8 +172,52 @@ body{
 }
 .detailInnerSymbol{
   height:60px;
-  width:13%;
-  margin:20px 41% 10px 43%;
+  width:60px;
+  margin:20px 41% 10px 47.5%;
+  border-radius:60px;
+  background-color:#C7D2D8;
+}
+.detailInnerSymbolOne{
+  background-image: url("../images/lightbulb.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-size:70%;
+}
+.detailInnerSymbolTwo{
+  background-image: url("../images/cloud.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-size:60%;
+}
+.detailInnerSymbolThree{
+  background-image: url("../images/code.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-size:70%;
+}
+.detailInnerSymbolFour{
+  background-image: url("../images/comments.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-size:70%;
+}
+.detailInnerSymbolFive{
+  background-image: url("../images/gift.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-size:60%;
+}
+.detailInnerSymbolSix{
+  background-image: url("../images/globe.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-size:60%;
 }
 .detailInnerTitle{
   height:20px;
@@ -244,5 +290,8 @@ body{
   height:35px;
   width: 30%;
   margin:0 auto;
-  background:white;
+  background-image:url("../images/automattic.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
